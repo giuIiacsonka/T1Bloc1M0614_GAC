@@ -1,23 +1,42 @@
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-#a{
+#SeccioSobreMi{
     background-color: rgb(244, 195, 252);
     border-radius: 3%;
     border: 2px solid rgb(140, 65, 211);
     width: 100%;
     height: 15%;
+    padding-left: 25px;
 }
-#b{
+#SeccioAficions{
     background-color: aliceblue;
     border-radius: 3%;
     border: 2px solid rgb(120, 186, 199);
+    padding-left: 25px;
 }
-#c{
+#SeccioPeuPagina{
     background-color: rgb(250, 218, 236);
     width: 100%;
     height: 10%;
     border-radius: 3%;
     border: 2px solid rgb(211, 109, 194);
+    padding-left: 25px;
+}
+#imatgeMusica, #imatgeJocs, #imatgeManga {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 50%;
+}
+#imatges{
+    text-align: center;
+    align-items: center;
 }
